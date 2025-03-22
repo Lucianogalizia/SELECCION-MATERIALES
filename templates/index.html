@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Portal de Materiales{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+  <div class="col-md-8 text-center">
+    <h1 class="mb-4">Bienvenido a la Selección de Materiales</h1>
+    <p class="lead mb-5">Elige una de las siguientes opciones:</p>
+    <div class="d-grid gap-3">
+      <!-- Botón para Bombeo Mecánico (botón azul, puedes modificar el color con Bootstrap o estilos personalizados) -->
+      <a href="https://bmecanico-29ee40b8e2ed.herokuapp.com/" class="btn btn-primary btn-lg">Bombeo Mecánico</a>
+      
+      <!-- Botón para Cavidad Progresiva (botón amarillo) -->
+      <a href="https://pcpmateriales-02cf3fce2561.herokuapp.com/" class="btn btn-warning btn-lg">Cavidad Progresiva</a>
+      
+      <!-- Botón para Electro Sumergible (botón rojo) -->
+      <a href="https://besmateriales-4ee974bf5b7c.herokuapp.com/" class="btn btn-danger btn-lg">Electro Sumergible</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
